@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    
+}
+
+.formholder{
+    height: 100vh;
+    width: 100vw;
+
+    background-image: linear-gradient(to right,blue,white,blue);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+     margin-bottom: 10px;
+}
+
+form{
+    border-radius: 20px;
+    background-color: powderblue;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.formitems{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+label{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 6px;
+    border: 1px solid grey;
+    outline: none;
+    display: flex;
+}
+
+.gender-options {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+    width: 100%; 
+    margin-top: 20px;
+}
+
+.submit-button, .cancel-button {
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+    width: 100%;
+    
+
+}
+
+.submit-button {
+    background-color: green; 
+}
+
+.cancel-button {
+    background-color: red; 
+}
+
+.a{
+    align-items: center;
+    margin-left: 50px;
+    text-align: center;
+}
